@@ -4,6 +4,10 @@ REQ2LTL is a powerful tool designed to automatically translate natural language 
 
 ## 🎯 The Challenge
 
+![REQ2LTL challenge overview](Figures/Fig1.png)
+
+*Figure 1. Key pain points that motivate the REQ2LTL pipeline.*
+
 Translating NL software requirements into LTL formulas is a critical but challenging task. Manual translation is time-consuming and error-prone. Existing automated approaches, whether rule-based or purely learning-based (including direct application of Large Language Models like GPT-40), often struggle with:
 
 * **Complexity and Ambiguity**: Real-world industrial requirements are often complex, ambiguous, and contain implicit semantics.
@@ -13,6 +17,10 @@ Translating NL software requirements into LTL formulas is a critical but challen
 ---
 
 ## ✨ Our Solution: REQ2LTL
+
+![REQ2LTL solution overview](Figures/Fig2.png)
+
+*Figure 2. REQ2LTL system components and data flow.*
 
 REQ2LTL offers a modular, robust, and accurate framework by leveraging the strengths of LLMs for semantic understanding and deterministic rule-based methods for logical synthesis. At its core is a novel hierarchical intermediate representation called **OnionL**.
 
@@ -63,8 +71,12 @@ The REQ2LTL framework operates through a systematic pipeline:
 
 * Click ONIONL TO LTL to convert ONIONL into the corresponding LTL formula.
   
-We have provided an example of a video demonstration here:
-[https://drive.google.com/file/d/1yQaDKHtVo9stpAJuJJ_0qKioH3P8JYhM/view?usp=sharing](https://drive.google.com/file/d/1rwBu0pQBE9Xt95v0pyopSCrj9IxiAc-R/view?usp=sharing)
+<div align="center">
+  <video controls width="720">
+    <source src="https://drive.google.com/uc?export=download&id=1rwBu0pQBE9Xt95v0pyopSCrj9IxiAc-R" type="video/mp4" />
+    Your browser cannot play the embedded video. <a href="https://drive.google.com/file/d/1rwBu0pQBE9Xt95v0pyopSCrj9IxiAc-R/view?usp=sharing">Watch it on Google Drive.</a>
+  </video>
+</div>
 
 Due to the privacy of space data, we are currently unable to publicly disclose all real data. Therefore, we have omitted some necessary details from the examples in the video.
 
