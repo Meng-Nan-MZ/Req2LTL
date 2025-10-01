@@ -68,7 +68,7 @@ The REQ2LTL framework operates through a systematic pipeline:
 
 [![REQ2LTL interactive demo cover](Figures/Fig3.png)](Videos/example_req2ltl.mp4)
 
-> 点击上方封面图即可在线查看或下载完整演示视频。
+> Click the cover image above to watch or download the full demo.
 
 Due to the privacy of space data, we are currently unable to publicly disclose all real data. Therefore, we have omitted some necessary details from the examples in the video.
 
