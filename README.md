@@ -39,7 +39,7 @@ This tool aims to achieve high semantic accuracy and perfect syntactic correctne
 
 ---
 
-## 🛠️ How It Works: The REQ2LTL Pipeline
+## 🛠️ How It Works & Demo
 
 The REQ2LTL framework operates through a systematic pipeline:
 
@@ -59,22 +59,17 @@ The REQ2LTL framework operates through a systematic pipeline:
    * This process is structure-preserving, ensuring that each validated OnionL tree produces a distinct, syntactically and semantically correct LTL formula.
 5. **Output**: A formal LTL specification.
 
----
-
-## 🛠️Function Description and Video demonstration
+**Interactive Walkthrough**
 
 * Click NL TO ONIONL to convert natural language to ONIONL.
+* Click CHECK to verify the generated OnionL structure. If it is incorrect, click FEEDBACK to regenerate it.
+* Click MERMAID to visualize OnionL as a tree diagram. If there is an error, describe it in the lower-right input box and click FEEDBACK to regenerate.
+* Click ONIONL TO LTL to translate OnionL into the corresponding LTL formula.
 
-* Click CHECK to check if the generated ONIONL structure is correct. If it is incorrect, click FEEDBACK to generate it again.
-
-* Click MERMAID to generate the tree diagram corresponding to ONIONL. If there is an error, enter the incorrect content in the input bar in the bottom right corner, and click FEEDBACK to generate it again.
-
-* Click ONIONL TO LTL to convert ONIONL into the corresponding LTL formula.
-  
 <div align="center">
   <video controls width="720">
-    <source src="Videos/example_req2ltl.mp4" type="video/mp4" />
-    Your browser cannot play the embedded video. <a href="Videos/example_req2ltl.mp4">Download the MP4.</a>
+    <source src="https://raw.githubusercontent.com/Meng-Nan-MZ/Req2LTL/main/Videos/example_req2ltl.mp4" type="video/mp4" />
+    Your browser cannot play the embedded video. <a href="https://raw.githubusercontent.com/Meng-Nan-MZ/Req2LTL/main/Videos/example_req2ltl.mp4">Download the MP4.</a>
   </video>
 </div>
 
