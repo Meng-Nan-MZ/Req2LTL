@@ -73,8 +73,8 @@ The REQ2LTL framework operates through a systematic pipeline:
   
 <div align="center">
   <video controls width="720">
-    <source src="https://drive.google.com/uc?export=download&id=1rwBu0pQBE9Xt95v0pyopSCrj9IxiAc-R" type="video/mp4" />
-    Your browser cannot play the embedded video. <a href="https://drive.google.com/file/d/1rwBu0pQBE9Xt95v0pyopSCrj9IxiAc-R/view?usp=sharing">Watch it on Google Drive.</a>
+    <source src="Videos/example_req2ltl.mp4" type="video/mp4" />
+    Your browser cannot play the embedded video. <a href="Videos/example_req2ltl.mp4">Download the MP4.</a>
   </video>
 </div>
 
