@@ -66,12 +66,9 @@ The REQ2LTL framework operates through a systematic pipeline:
 * Click MERMAID to visualize OnionL as a tree diagram. If there is an error, describe it in the lower-right input box and click FEEDBACK to regenerate.
 * Click ONIONL TO LTL to translate OnionL into the corresponding LTL formula.
 
-<div align="center">
-  <video controls width="720">
-    <source src="https://raw.githubusercontent.com/Meng-Nan-MZ/Req2LTL/main/Videos/example_req2ltl.mp4" type="video/mp4" />
-    Your browser cannot play the embedded video. <a href="https://raw.githubusercontent.com/Meng-Nan-MZ/Req2LTL/main/Videos/example_req2ltl.mp4">Download the MP4.</a>
-  </video>
-</div>
+[![REQ2LTL interactive demo cover](Figures/Fig3.png)](Videos/example_req2ltl.mp4)
+
+> 点击上方封面图即可在线查看或下载完整演示视频。
 
 Due to the privacy of space data, we are currently unable to publicly disclose all real data. Therefore, we have omitted some necessary details from the examples in the video.
 
